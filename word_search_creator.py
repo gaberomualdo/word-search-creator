@@ -8,4 +8,10 @@ def createWordSearch(words):
 
 	# generate 2d array with side lengths of gridSideLength, with each item having a content of ""
 	grid = [[""]*gridSideLength]*gridSideLength
-	
+
+	# loop through words and place them randomly in the grid, either horizontally, vertically, or diagonally
+	for word in words:
+		# === CODE HERE ===
+
+# test createWordSearch function with 8 randomly generated words
+print createWordSearch(["seemly", "exotic", "obese", "disagreeable", "earn", "spark", "strengthen", "colossal"])
