@@ -11,7 +11,8 @@ def createWordSearch(words):
 
 	# loop through words and place them randomly in the grid, either horizontally, vertically, or diagonally
 	for word in words:
-		pass
+		# choose randomly between possible placement types (horizontal, vertical, and diagonal)
+		placementType = random.choice(["horizontal", "vertical", "diagonal"])
 
 	# fill the rest of grid with random letters
 	for rowIndex in range(len(grid)):
@@ -37,4 +38,4 @@ def stringifyWordSearch(wordSearchArray):
 
 # test createWordSearch function with 8 randomly generated words
 returnedWordSearch = createWordSearch(["seemly", "exotic", "obese", "disagreeable", "earn", "spark", "strengthen", "colossal"])
-#print stringifyWordSearch(returnedWordSearch)
+print stringifyWordSearch(returnedWordSearch)
