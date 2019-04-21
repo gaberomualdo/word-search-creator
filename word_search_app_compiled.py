@@ -124,7 +124,7 @@ print ""
 wordList = wordListString.split(",")
 
 # list of accepted letters for words
-acceptedLetters = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ")
+acceptedLetters = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 # filter word list into words with accepted letters
 for wordIndex in range(len(wordList)):
