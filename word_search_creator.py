@@ -2,6 +2,12 @@ from copy import copy, deepcopy
 import random
 
 def createWordSearch(words):
+	# there is a 25% chance that the word will be written reversed in the word search
+	# --> makes word search harder
+	for wordIndex in range(len(words)):
+		if(random.randrange(4) == 0):
+			words[wordIndex] = words[wordIndex][::-1]
+
 	# grid side length is the length of the longest word
 	# --> makes word search possible to generate with given words and grid size
 	gridSideLength = len(max(words, key=len)) + 6
