@@ -81,6 +81,9 @@ def createWordSearch(words):
 def stringifyWordSearch(wordSearchArray):
 	returnValue = ""
 	for row in wordSearchArray:
+		# Alternate Design:
+		# returnValue += " | ".join(row) + "\n" + ("--+-"  * len(row))[:-2] + "\n" '''
+
 		returnValue += " ".join(row) + "\n"
 	# return concatenated rows, joined with a newline --> the [:-1] is to remove the last trailing newline
 	return returnValue[:-1]
