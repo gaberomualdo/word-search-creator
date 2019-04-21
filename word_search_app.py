@@ -8,8 +8,6 @@ wordSearchName = raw_input("Name of word search: ")
 wordListString = raw_input("Enter words (separated by a comma): ")
 wordList = wordListString.split(",")
 
-print wordList
-
 # list of accepted letters for words
 acceptedLetters = list("abcdefghijklmnopqrstuvwxyz")
 
@@ -22,7 +20,13 @@ for wordIndex in range(len(wordList)):
 			filteredWord += letter
 	wordList[wordIndex] = filteredWord
 
-print wordList
-
-# create word search via the function in word_search_creator.py
+# create word search via function in word_search_creator.py
 wordSearchArray = createWordSearch(wordList)
+
+# get stringified word search via function in word_search_creator.py, and split into rows
+stringifiedWordSearch = stringifyWordSearch(wordSearchArray).split("\n")
+
+print stringifiedWordSearch
+
+# print word search with name and words to find
+wordSearchArray[0]
