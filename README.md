@@ -17,7 +17,7 @@ $ python word_search.py
 If instead you are a developer and you'd like to use the functions that ```word_search_creator.py``` and other files in this repo contain, simply clone or download this repo with the following command: 
 
 ```bash
-git clone https://github.com/xtrp/word_search_creator
+$ git clone https://github.com/xtrp/word_search_creator
 ```
 
 ## Credits
