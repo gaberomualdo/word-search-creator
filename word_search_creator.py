@@ -84,7 +84,3 @@ def stringifyWordSearch(wordSearchArray):
 		returnValue += " ".join(row) + "\n"
 	# return concatenated rows, joined with a newline --> the [:-1] is to remove the last trailing newline
 	return returnValue[:-1]
-
-# test createWordSearch function with 8 randomly generated words
-returnedWordSearch = createWordSearch(["seemly", "exotic", "obese", "disagreeable", "earn", "spark", "strengthen", "colossal"])
-print stringifyWordSearch(returnedWordSearch)
