@@ -1,10 +1,6 @@
 from copy import copy, deepcopy
 import random
 
-# function to yield an error (by requesting second index of empty array) --> used to move to the except section within try-except statements
-def yieldError():
-	return [][1]
-
 def createWordSearch(words):
 	# grid side length is the length of the longest word
 	# --> makes word search possible to generate with given words and grid size
