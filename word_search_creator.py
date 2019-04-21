@@ -14,6 +14,20 @@ def createWordSearch(words):
 		# choose randomly between possible placement types (horizontal, vertical, and diagonal)
 		placementType = random.choice(["horizontal", "vertical", "diagonal"])
 
+		# placement status (when placed, placement status is True and while loop ends)
+		placementStatus = False
+		while(placementStatus == False):
+			# create grid copy to be edited in testing
+			gridCopy = deepcopy(grid)
+
+			# create random coordinates for placement location
+			placementLocation = [random.randrange(gridSideLength), random.randrange(gridSideLength)]
+			if(placementType == "horizontal" or placementType == "diagonal"):
+				placementLocation[0] = random.randrange(gridSideLength - len(word))
+			if(placementType == "vertical" or placementType == "diagonal"):
+				placementLocation[1] = random.randrange(gridSideLength - len(word))
+
+			print "Type: " + placementType + "\nPosition: " + str(placementLocation) + "\n======"
 	# fill the rest of grid with random letters
 	for rowIndex in range(len(grid)):
 		row = deepcopy(grid[rowIndex])
