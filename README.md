@@ -20,5 +20,6 @@ If instead you are a developer and you'd like to use the functions that ```word_
 $ git clone https://github.com/xtrp/word_search_creator
 ```
 
-## Credits
-Word Search was created by Fred Adams &mdash; [Website](https://xtrp.github.io/), [Github](https://github.com/xtrp), [dev.to](https://dev.to/xtrp), [Stack Overflow](https://stackoverflow.com/users/10007107/fred-adams), [Email](mailto:xtrp127@gmail.com)
+## Credits and License
+
+Word search creator was written by [Fred Adams](https://xtrp.io/). It is licensed under the MIT License. For more information, see LICENSE.txt.
