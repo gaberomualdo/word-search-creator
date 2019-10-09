@@ -2,6 +2,8 @@
 
 Creates a word search puzzle with any words!
 
+![Demo Photo](demo_photo.png)
+
 ## Description
 
 Word Search Creator provides several Python programs that allow you to create word search puzzles with any given words and a title. There a command line interface, as well a Python function to generate word searches.
