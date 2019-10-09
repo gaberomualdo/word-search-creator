@@ -2,7 +2,7 @@
 
 Creates a word search puzzle with any words!
 
-![Demo Photo](demo_photo.png)
+![Demo Photo](demo_photo.jpg)
 
 ## Description
 
