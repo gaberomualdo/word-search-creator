@@ -1,12 +1,19 @@
 # Word Search Creator
+
+Creates a word search puzzle with any words!
+
 ## Description
-There are three files in this repo:
+
+Word Search Creator provides several Python programs that allow you to create word search puzzles with any given words and a title. There a command line interface, as well a Python function to generate word searches.
+
+There are three files in the repo for creating word searches:
 
  - ```word_search_creator.py``` &mdash; contains several Python functions for generating word searches
  - ```word_search_app.py``` &mdash; utilizes functions contained in ```word_search_creator.py``` to create a Python user-interface for creating word searches
  - ```word_search_app_compiled.py``` &mdash; ```word_search_app.py```, although it is a single file and includes the ```word_search_creator.py``` dependency within it's own file
 
 ## Using Word Search Creator
+
 If you'd just like to generate word searches, simply type the following two commands into your command line:
 
 ```bash
