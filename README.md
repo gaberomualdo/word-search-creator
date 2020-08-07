@@ -31,4 +31,4 @@ $ git clone https://github.com/xtrp/word_search_creator
 
 ## Credits and License
 
-Word search creator was written by [Fred Adams](https://xtrp.io/). It is licensed under the MIT License. For more information, see LICENSE.txt.
+Word search creator was written by [Gabriel Romualdo](https://xtrp.io/). It is licensed under the MIT License. For more information, see LICENSE.txt.
